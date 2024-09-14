@@ -67,7 +67,7 @@ def display_word(word, guessed_letters):
         if letter in guessed_letters:
             displayed_word += letter
         else:
-            displayed_word += "_"
+            displayed_word += "_ "
     return displayed_word
 
 def play_hangman():
